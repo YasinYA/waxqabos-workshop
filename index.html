@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>React &amp; Git</title>
+
+		<meta name="description" content="Waxqabso Workshop, React and Git part">
+		<meta name="author" content="Yasin Yusuf">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<script src="https://kit.fontawesome.com/de205af5bb.js"></script>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>React &amp; Git</h1>
+					<h3>Waxqabso Workshop</h3>
+					<p>
+						<small>Created by <a href="http://twitter.com/yasinyusufaxmed">Yasin Yusuf</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>About Me</h2>
+					<img src="./img/avatar.jpg" class="rounded" height="150" width="150" alt="Yasin Yusuf">
+					<p>
+						Yasin Yusuf
+					</p>
+					<small>
+						Work @ <a href="https://teckave.com">Teckave</a>
+					</small>
+					<div>
+						<a href="https://facebook.com/yasinyusufaxmed">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="https://twitter.com/yasinyusufaxmed">
+							<i class="fab fa-twitter"></i>
+						<a href="https://instagram.com">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
+					<small>@yasinyusufaxmed</small>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
